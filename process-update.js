@@ -13,7 +13,7 @@ if (!module.hot) {
 var hmrDocsUrl = 'https://webpack.js.org/concepts/hot-module-replacement/'; // eslint-disable-line max-len
 
 var lastHash;
-var failureStatuses = { abort: 1, fail: 1 };
+var failureStatuses = { abort: 1, fail: 1, prepare: 1 };
 var applyOptions = {
   ignoreUnaccepted: true,
   ignoreDeclined: true,
